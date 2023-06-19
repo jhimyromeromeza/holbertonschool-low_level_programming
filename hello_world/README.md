@@ -1,1 +1,1 @@
-practica of lenguaje c and compilacion
+practic of lenguaje c and y compilador
