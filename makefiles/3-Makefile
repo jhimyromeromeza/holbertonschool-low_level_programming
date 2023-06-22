@@ -6,7 +6,7 @@ RM=rm
 
 all:$(NAME)
 
-$(NAME): $(NAME)
+$(NAME): $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
 %.o:%.c
