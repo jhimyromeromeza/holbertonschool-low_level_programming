@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - print _putchar folloed by new line
+ * main - print :putchar, followe by new line
  *
  * Return: Always 0 (succelss)
  */

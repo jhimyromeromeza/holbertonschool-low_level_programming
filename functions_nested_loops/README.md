@@ -1,1 +1,1 @@
-Learning functions c, nested loops
+Learning variables, functions, nestd loops
