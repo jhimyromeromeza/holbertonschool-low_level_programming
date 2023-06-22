@@ -11,7 +11,7 @@ $(NAME):$(OBJ)
 	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
 
 %.o:%.c
-	$(CC) -c $< -o $@
+	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
 	$(RM) -f *~ *# $(OBJ) $(NAME)
@@ -20,7 +20,7 @@ clean:
 oclean:
 	$(RM) -f $(OBJ)
 
-fclean:
-	$(RM) -f $(NAME)
+fclean: ocean clean
+	
 
 re: fclean all
