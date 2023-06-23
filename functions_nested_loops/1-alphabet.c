@@ -1,12 +1,13 @@
-#include "main.h"
+#include  "main.h"
 #include <stdio.h>
-/*
- * main - check the code
+/**
+ * print_alphabet - print alphabete
  *
- * Return: Always 0.
+ * Return: Always char(succels)
  */
 
 void print_alphabet(void)
+
 {
 	char i;
 
