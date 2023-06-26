@@ -4,7 +4,7 @@
  * times_table - print table
  *
  * Return: Always 0 (succelss)
- \*/
+ */
 
 void times_table(void)
 
@@ -17,20 +17,23 @@ void times_table(void)
 		for (e = 0; e <= 9; e++)
 		{
 			resultado = i * e;
-			if (e == 0)
-				printf("%d,  ", resultado);
-			if (resultado < 10)
+			if (e != 0)
 			{
-				printf("  %d,", resultado);
+				_putchar(',');
+				_putchar(' ');
 			}
-			else if (resultado >= 10)
+			if (resultado >= 10)
 			{
-				printf(" %d,", resultado);
+				_putchar(resultado / 10 + '0');
+				_putchar(resultado % 10 + '0');
 			}
-			else if (e == 9)
+			else
 			{
-				printf("\n");
+				if (e != 0)
+					_putchar(' ');
+				_putchar(resultado + '0');
 			}
 		}
+		_putchar('\n');
 	}
 }
