@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * reset_to_98 - changer parameter of 98
- * @*n: pointers parameter
+ * @n: pointers parameter
  *
  * Return: Always changer of pointer (succelss)
  */
