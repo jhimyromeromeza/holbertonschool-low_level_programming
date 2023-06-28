@@ -10,14 +10,13 @@ int main(void)
 
 {
 	int i;
+	int suma = 0;
 
 	for (i = 0; i < 1024; i++)
 	{
-		if (i % 3 == 0)
-			printf("%d", i);
-		else if (i % 5 == 0)
-			printf("%d", i);
+		if (i % 3 == 0 || i % 5 == 0)
+			suma = suma + i;
 	}
-	printf("\n");
+	printf("%d\n", suma);
 	return (0);
 }
