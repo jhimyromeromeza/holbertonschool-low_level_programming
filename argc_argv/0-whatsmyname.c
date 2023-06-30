@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
  * main - print is name
+ * @argc: count arguments
+ * @argv: pointers arguents
  *
  * Return: mi nama is (succels)
  */
