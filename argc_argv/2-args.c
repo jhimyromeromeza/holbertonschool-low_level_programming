@@ -2,7 +2,7 @@
 /**
  * main - print all parameters
  * @argc: check count arguments
- * @argc: check para,eters arguments
+ * @argv: check para,eters arguments
  *
  * Return: Always number of arguments (succelss)
  */
