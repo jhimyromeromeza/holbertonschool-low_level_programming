@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
 	int i;
 	int var;
-	
+
 	if (argc <= 0)
 	{
 		printf("0\n");
