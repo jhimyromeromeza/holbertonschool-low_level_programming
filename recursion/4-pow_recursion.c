@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _pow_recursion - power of a number 
+ * _pow_recursion - power of a number
  * @x: number check
  * @y: number check
  *
