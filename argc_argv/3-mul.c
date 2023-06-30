@@ -13,7 +13,10 @@ int main(int argc, char *argv[])
 {
 	int var;
 
-	(void)argc;
+	if (argc != 3)
+	{
+		return (1);
+	}
 
 	var = atoi(argv[1]) * atoi(argv[2]);
 	printf("%d\n", var);
