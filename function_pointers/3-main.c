@@ -13,16 +13,21 @@ int main(int argc, char *argv[])
 
 {
 	int resultado;
-	int num1 = atoi(argv[1]);
-	int num2 = atoi(argv[3]);
-	char *operator = argv[2];
-	int (*tipofuncion)(int, int) = get_op_func(operator);
+	int num1;
+	int num2;
+	char *operator;
+	int (*tipofuncion)(int, int);
 
 	if (argc != 4)
 	{
 		printf("Error\n");
 		return (98);
 	}
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[3]);
+	operator = argv[2];
+	tipofuncion = get_op_func(operator);
+
 	if (tipofuncion == NULL)
 	{
 		printf("Error\n");
